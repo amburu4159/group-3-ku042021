@@ -12,7 +12,9 @@
  
 ## Questions to address
   What factors contribute to fatality in vehicle crashes?
+  
   Do accidents involving alcohol or distracted driving have increased rates of fatality?
+  
   Does adverse weather impact the rate of crash fatality?
 
 ## Communication Protocols
