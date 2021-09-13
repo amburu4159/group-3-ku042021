@@ -26,18 +26,31 @@ Google docs
 
 ## Dependencies
 import numpy as np
+
 import pandas as pd
+
 from pathlib import Path
+
 from collections import Counter
+
 from matplotlib import pyplot as plt
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.preprocessing import StandardScaler
+
 from sklearn.ensemble import RandomForestClassifier
+
 from sklearn.feature_selection import SelectFromModel
+
 from imblearn.over_sampling import SMOTE
+
 from sklearn.linear_model import LogisticRegression
+
 from sklearn.metrics import balanced_accuracy_score
+
 from sklearn.metrics import confusion_matrix
+
 from imblearn.metrics import classification_report_imbalanced
 
 ## Technology at use
