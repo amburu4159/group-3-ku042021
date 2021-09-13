@@ -22,6 +22,7 @@ For communication purposes, we are communicating using slack and zoom meetings. 
 
 ## Resources
 NHTSA website (https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/CRSS/2019/)
+
 Google docs
 
 ## Dependencies
