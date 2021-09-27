@@ -11,11 +11,9 @@
   Darpan Bhakta - X/Technologies
  
 ## Questions to address
-  What factors contribute to fatality in vehicle crashes?
-  
-  Do accidents involving alcohol or distracted driving have increased rates of fatality?
-  
-  Does adverse weather impact the rate of crash fatality?
+  o What factors contribute to fatality in vehicle crashes?  
+  o Do accidents involving alcohol or distracted driving have increased rates of fatality?  
+  o Does adverse weather impact the rate of crash fatality?
 
 ## Communication Protocols
 For communication purposes, we are communicating using slack and zoom meetings. We message each other regularly have had a handful of meetings outside of class to discuss the project, potential road-blocks, update each other on the status of our individual parts and next steps.
@@ -26,33 +24,32 @@ NHTSA website (https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/CRSS/2019/
 Google docs
 
 ## Dependencies
-import numpy as np
+o import numpy as np
+o import pandas as pd
 
-import pandas as pd
+o from pathlib import Path
 
-from pathlib import Path
+o from collections import Counter
 
-from collections import Counter
+o from matplotlib import pyplot as plt
 
-from matplotlib import pyplot as plt
+o from sklearn.model_selection import train_test_split
 
-from sklearn.model_selection import train_test_split
+o from sklearn.preprocessing import StandardScaler
 
-from sklearn.preprocessing import StandardScaler
+o from sklearn.ensemble import RandomForestClassifier
 
-from sklearn.ensemble import RandomForestClassifier
+o from sklearn.feature_selection import SelectFromModel
 
-from sklearn.feature_selection import SelectFromModel
+o from imblearn.over_sampling import SMOTE
 
-from imblearn.over_sampling import SMOTE
+o from sklearn.linear_model import LogisticRegression
 
-from sklearn.linear_model import LogisticRegression
+o from sklearn.metrics import balanced_accuracy_score
 
-from sklearn.metrics import balanced_accuracy_score
+o from sklearn.metrics import confusion_matrix
 
-from sklearn.metrics import confusion_matrix
-
-from imblearn.metrics import classification_report_imbalanced
+o from imblearn.metrics import classification_report_imbalanced
 
 ## Technology at use
   The database will be setup using postgreSQL. Python is the primary language that will be used for data manipulation and exploration. Supervised machine learning will be used to make predictions, and Tableau will be used to visualize the data.
