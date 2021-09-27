@@ -66,3 +66,6 @@ We began the learning model by creating our features and target variables.  The 
 8. The data is fitted to a logistic regression model
 9. An accuracy score, confusion matrix, and a classification report are developed
 
+
+##power point slide draft 
+https://docs.google.com/presentation/d/1Jm8NRDJl4Hmu8E_V1p_JUmdTqQMMCMX8bRXLLxojHeE/edit?usp=sharing
