@@ -11,6 +11,11 @@
   o What factors contribute to fatality in vehicle crashes?  
   o Do accidents involving alcohol or distracted driving have increased rates of fatality?  
   o Does adverse weather impact the rate of crash fatality?
+  
+  
+  ## slides draft 
+https://docs.google.com/presentation/d/1Jm8NRDJl4Hmu8E_V1p_JUmdTqQMMCMX8bRXLLxojHeE/edit?usp=sharing
+
 
 ## Communication Protocols
 For communication purposes, we are communicating using slack and zoom meetings. We message each other regularly have had a handful of meetings outside of class to discuss the project, potential road-blocks, update each other on the status of our individual parts and next steps.
@@ -70,5 +75,4 @@ We began the learning model by creating our features and target variables.  The 
 The database being used is AWS RDS with access and manipulation via postgreSQL. The Data being used is from the NHTSA (National Highway and Traffic Safety Administration) government site (www.nhtsa.gov). The csvs are downloaded and accessed via jupyter notebook to pre-process the data. The tables are then loaded into the SQL database using sqlalchemy, and two tables (vehicle and distraction) are combined within postgres for ease of access later. The data is now accessible from the database for the machine learning model.
 
 
-##power point slide draft 
-https://docs.google.com/presentation/d/1Jm8NRDJl4Hmu8E_V1p_JUmdTqQMMCMX8bRXLLxojHeE/edit?usp=sharing
+
