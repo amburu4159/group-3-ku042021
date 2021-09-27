@@ -66,6 +66,9 @@ We began the learning model by creating our features and target variables.  The 
 8. The data is fitted to a logistic regression model
 9. An accuracy score, confusion matrix, and a classification report are developed
 
+## Database
+The database being used is AWS RDS with access and manipulation via postgreSQL. The Data being used is from the NHTSA (National Highway and Traffic Safety Administration) government site (www.nhtsa.gov). The csvs are downloaded and accessed via jupyter notebook to pre-process the data. The tables are then loaded into the SQL database using sqlalchemy, and two tables (vehicle and distraction) are combined within postgres for ease of access later. The data is now accessible from the database for the machine learning model.
+
 
 ##power point slide draft 
 https://docs.google.com/presentation/d/1Jm8NRDJl4Hmu8E_V1p_JUmdTqQMMCMX8bRXLLxojHeE/edit?usp=sharing
