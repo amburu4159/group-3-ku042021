@@ -80,6 +80,7 @@ After we got the data to look like what we wanted we used the OneHotEncoder to m
 8. The data is fitted to a logistic regression model
 9. An accuracy score, confusion matrix, and a classification report are developed
 10. An AdaBoostClassifier is also used.  The group will need to decide on the best option moving forward.
+
 The SMOTE random sampler was originally used because the dataset that we were working with had few examples of fatal accidents, which made it tougher for the machine learning model to successfully perform its task.  Recently, the group decided to add in a fatality dataset.  This would create more data with fatalities involved and would probably allow us to choose a different model than the SMOTE oversampler.  The integration of the nwere dataset did give us different important features and much higher accuracy, precision, and recall from the SMOTE used in the original model.
 
 
