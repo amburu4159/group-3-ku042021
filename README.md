@@ -2,13 +2,10 @@
 ## Purpose
   The purpose of this investigation is to determine the primary factors that contribute to the fatality of vehicle crashes. The data for this investigation is pulled from the NHTSA CRSS (National Highway Traffic Safety Administration Crash Report Sampling System) database (https://www.nhtsa.gov/crash-data-systems/crash-report-sampling-system). 
 ## Teammates
-  Andrew Mburu - Square/Repository
-  
-  Bryan Gurss - Triangle/ML model
-  
-  Jason Dibble - Circle/Database
-  
-  Darpan Bhakta - X/Technologies
+1. Andrew Mburu - Square/Repository
+2. Bryan Gurss - Triangle/ML model  
+3. Jason Dibble - Circle/Database  
+4.  Darpan Bhakta - X/Technologies
  
 ## Questions to address
   o What factors contribute to fatality in vehicle crashes?  
