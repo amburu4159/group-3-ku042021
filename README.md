@@ -75,6 +75,11 @@ We began the learning model by creating our features and target variables.  The 
  ## Database
 The database being used is AWS RDS with access and manipulation via postgreSQL. The Data being used is from the NHTSA (National Highway and Traffic Safety Administration) government site (www.nhtsa.gov). The csvs are downloaded and accessed via jupyter notebook to pre-process the data. The tables are then loaded into the SQL database using sqlalchemy, and two tables (vehicle and distraction) are combined within postgres for ease of access later. The data is now accessible from the database for the machine learning model.
 
+
+## Dashboard
+We will be using Tableau for the visualization. The plan is to pick the top five to ten features that are consistently present in fatal car accidents according to the machine learning model and use those to pivot, visualize and display the data. 
+We plan on using age, which is one of the top features according to the model to give interactivity to the dashboard 
+
  
 
 
