@@ -59,6 +59,10 @@ o from imblearn.metrics import classification_report_imbalanced
 ## ERD
  ![ERD Diagram](https://user-images.githubusercontent.com/40553064/133019580-46009ee0-8d99-48b4-9e23-f882a34a61cf.PNG)
  
+ ## Database
+The database being used is AWS RDS with access and manipulation via postgreSQL. The Data being used is from the NHTSA (National Highway and Traffic Safety Administration) government site (www.nhtsa.gov). The csvs are downloaded and accessed via jupyter notebook to pre-process the data. The tables are then loaded into the SQL database using sqlalchemy, and two tables (vehicle and distraction) are combined within postgres for ease of access later. The data is now accessible from the database for the machine learning model.
+
+ 
  ## Machine Learning Algorithm / Inital Data Analysis
 We began the learning model by creating our features and target variables.  The “MAX_SEVNAME” column will be used as our target variable y, while all other columns in the dataframe will be used as our features (X).  From here the following things will be performed on the data.
 1. The data is split into testing and training groups
@@ -71,8 +75,6 @@ We began the learning model by creating our features and target variables.  The 
 8. The data is fitted to a logistic regression model
 9. An accuracy score, confusion matrix, and a classification report are developed
 
-## Database
-The database being used is AWS RDS with access and manipulation via postgreSQL. The Data being used is from the NHTSA (National Highway and Traffic Safety Administration) government site (www.nhtsa.gov). The csvs are downloaded and accessed via jupyter notebook to pre-process the data. The tables are then loaded into the SQL database using sqlalchemy, and two tables (vehicle and distraction) are combined within postgres for ease of access later. The data is now accessible from the database for the machine learning model.
 
 
 
