@@ -93,6 +93,8 @@ The database being used is AWS RDS with access and manipulation via postgreSQL. 
 
 
 ## Dashboard
+Here is a link to the Tableau Dashboard
+https://public.tableau.com/app/profile/andrew.mburu8003/viz/ku_data_project3/FatalityAccidents?publish=yes
 
 
 
