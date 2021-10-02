@@ -17,9 +17,6 @@
 https://docs.google.com/presentation/d/1Jm8NRDJl4Hmu8E_V1p_JUmdTqQMMCMX8bRXLLxojHeE/edit?usp=sharing
 
 
-## Communication Protocols
-For communication purposes, we are communicating using slack and zoom meetings. We message each other regularly have had a handful of meetings outside of class to discuss the project, potential road-blocks, update each other on the status of our individual parts and next steps.
-
 ## Resources
 NHTSA website (https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/CRSS/2019/)
 
@@ -96,10 +93,6 @@ The database being used is AWS RDS with access and manipulation via postgreSQL. 
 
 
 ## Dashboard
-We will be using Tableau for the visualization. The plan is to pick the top five to ten features that are consistently present in fatal car accidents according to the machine learning model and use those to pivot, visualize and display the data. 
-We plan on using age, which is one of the top features according to the model to give interactivity to the dashboard 
-
- 
 
 
 
