@@ -78,6 +78,8 @@ After we got the data to look like what we wanted, we used the OneHotEncoder to 
 ### Accuracy Report
 The accuracy report with descriptions are shown below:
 
+![AccuracyInfo.png](AccuracyInfo.png)
+
 The table gives an accuracy score approximately 84%.  This means that the prediction algorithm was correct 84% of the time when run on the testing dataset.  This is not perfect but is a good score for the situation.
 
 The confusion matrix gives the following information:
