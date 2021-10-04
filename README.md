@@ -105,9 +105,9 @@ The database being used is AWS RDS with access and manipulation via postgreSQL. 
 
 ## Dashboard
 
- o We used Tableau for our visualization piece of the project.
+o   We used Tableau for our visualization piece of the project.
 
- o Our dahboard includes interactive filters that allow the user to select whether or not alchohol was a factor in the crash as they're analyzing the data
+o   Our dahboard includes interactive filters that allow the user to select whether or not alchohol was a factor in the crash as they're analyzing the data
 
 The link to the dashboard is below
 
