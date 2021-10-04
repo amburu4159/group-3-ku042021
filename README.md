@@ -65,20 +65,20 @@ We are storing all of our data on the AWS servers.  Four different csv files are
   - Car years over 2025
   - Ages over 120
   - Hour of Day over 25
-After we got the data to look like what we wanted we used the OneHotEncoder to make all object variables into numbers (zeros and ones).  After this we used the standard scaler in order to scale down some of the other variables. This was done to keep features with large numbers from skewing the machine learning model.  Once the data was scaled the following steps took place.
+After we got the data to look like what we wanted, we used the OneHotEncoder to make all object variables into numbers (zeros and ones).  After this we used the standard scaler in order to scale down some of the other variables. This was done to keep features with large numbers from skewing the machine learning model.  Once the data was scaled the following steps took place.
 
 1. The data is split into testing and training groups.  We used the standard 80/20 split that is custom in many models
 2. The data is scaled to make all data equally important
 3. A Random Forest Classifier is used on the data to determine the importance of each feature. The training data group is used to determine this importance.
 4. A horizontal bar graph is presented with the level of importance in descending order.
-5. The data is then narrowed down to only the most important features determined by the model
-6. A new training and testing set is created with the only the important features
-7. The data is put into the SMOTE trainer
-8. The data is fitted to a logistic regression model
-9. An accuracy score, confusion matrix, and a classification report are developed
-10. An AdaBoostClassifier is also used.  The group will need to decide on the best option moving forward.
+5. The data was initially narrowed down to only those important features, but was later expanded because of better results in the prediction algorithm
+6. The data is fitted to a logistic regression model (specifically into the AdaBoostClassifier).  The SMOTE random sampler was originally used because the dataset that we were working with had few examples of fatal accidents, which made it tougher for the machine learning model to successfully perform its task.  Recently, the group decided to add in a fatality dataset.  This would create more data with fatalities involved and would probably allow us to choose a different model than the SMOTE oversampler.  The integration of the newer dataset did give us different important features and much higher accuracy, precision, and recall from the SMOTE used in the original model.
+8. An accuracy score, confusion matrix, and a classification report are developed from this information.
 
-The SMOTE random sampler was originally used because the dataset that we were working with had few examples of fatal accidents, which made it tougher for the machine learning model to successfully perform its task.  Recently, the group decided to add in a fatality dataset.  This would create more data with fatalities involved and would probably allow us to choose a different model than the SMOTE oversampler.  The integration of the nwere dataset did give us different important features and much higher accuracy, precision, and recall from the SMOTE used in the original model.
+### Accuracy Report
+The accuracy report with descriptions are shown below:
+
+
 
 
 
