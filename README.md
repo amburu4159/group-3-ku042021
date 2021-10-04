@@ -19,6 +19,7 @@ https://docs.google.com/presentation/d/1Jm8NRDJl4Hmu8E_V1p_JUmdTqQMMCMX8bRXLLxoj
 
 ## Resources
 NHTSA website (https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/CRSS/2019/)
+FARS data (https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/)
 
 Google docs
 
