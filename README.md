@@ -78,7 +78,15 @@ After we got the data to look like what we wanted, we used the OneHotEncoder to 
 ### Accuracy Report
 The accuracy report with descriptions are shown below:
 
+The table gives an accuracy score approximately 84%.  This means that the prediction algorithm was correct 84% of the time when run on the testing dataset.  This is not perfect but is a good score for the situation.
 
+The confusion matrix gives the following information:
+- The precision score of .95 tells us that when the model predicted there would be no death, it was correct 95% of the time.
+- The precision score of .83 tells us that when the model predicted there would be death, it was correct 83% of the time.
+- The recall/sensitivity score of .98 tells us that when the model predicted the non fatal accidents correctly 98% of the time.
+- The recall/sensitivity score of .70 tells us that when the model predicted the fatal accidents correctly 70% of the time.
+
+Overall, these scores tell us that it is plausible for us to make predictions on fatal accidents.  This will also ultimately tell us there are steps we can take to improve driver safety.
 
 
 
