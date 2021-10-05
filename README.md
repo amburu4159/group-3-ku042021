@@ -1,19 +1,15 @@
 # Car Fatalities
 ## Purpose
-  The purpose of this investigation is to determine the primary factors that contribute to the fatality of vehicle crashes. The data for this investigation is pulled from the NHTSA CRSS (National Highway Traffic Safety Administration Crash Report Sampling System) database (https://www.nhtsa.gov/crash-data-systems/crash-report-sampling-system). 
+Our group’s goal was to explore car accident data to determine what factors contributed most to fatal accidents and whether a machine learning model could use these factors to predict fatalities.  This, combined with our visualizations, would allow us to pinpoint what factors deserve the most attention when promoting car safety. 
+  
 ## Teammates
 1. Andrew Mburu - Square/Repository
 2. Bryan Gurss - Triangle/ML model  
 3. Jason Dibble - Circle/Database  
-4.  Darpan Bhakta - X/Technologies
- 
-## Questions to address
-  o What factors contribute to fatality in vehicle crashes?  
-  o Do accidents involving alcohol or distracted driving have increased rates of fatality?  
-  o Does adverse weather impact the rate of crash fatality?
+4. Darpan Bhakta - X/Technologies
   
   
-  ## Google Slides Draft 
+## Google Slides Draft 
 https://docs.google.com/presentation/d/1Jm8NRDJl4Hmu8E_V1p_JUmdTqQMMCMX8bRXLLxojHeE/edit?usp=sharing
 
 
@@ -27,28 +23,31 @@ Google docs
 - Numpy
 - Pandas
 - pyplot
+- psycopg2
+- sqlalchemy
+  - create_engine 
 - sklearn.preprocessing
   - Standard Scaler
 - sklearn.model_selection
-- - train_test_split
+  - train_test_split
 - sklearn.ensemble
-- - RandomForestClassifier
+  - RandomForestClassifier
+  - AdaBoostClassifier
 - imblearn.over_sampling
-- - SMOTE
-
-o from pathlib import Path
-
-o from collections import Counter
-
-o from sklearn.feature_selection import SelectFromModel
-
-o from sklearn.linear_model import LogisticRegression
-
-o from sklearn.metrics import balanced_accuracy_score
-
-o from sklearn.metrics import confusion_matrix
-
-o from imblearn.metrics import classification_report_imbalanced
+  - SMOTE
+- sklearn.feature_selection
+  - SelectFromModel
+- sklearn.linear_model
+  - LogisticRegression
+- sklearn.metrics
+  - balanced_accuracy_score
+  - confusion_matrix
+- imblearn.metrics
+  - classification_report_imbalanced
+- os
+- joblib
+  - dump
+  - load
 
  ## Machine Learning Algorithm / Inital Data Analysis
 We began the learning model by creating our features and target variables. The “MAX_SEVNAME” column will be used as our target variable y, while all other columns in the dataframe will be used as our features (X). From here the following things will be performed on the data.  The “MAX_SEVNAME” name will be changed to “Number of Deaths”
@@ -74,13 +73,11 @@ After we got the data to look like what we wanted, we used the OneHotEncoder to 
 5. The data was initially narrowed down to only those important features, but was later expanded because of better results in the prediction algorithm
 6. The data is fitted to a logistic regression model (specifically into the AdaBoostClassifier).  The SMOTE random sampler was originally used because the dataset that we were working with had few examples of fatal accidents, which made it tougher for the machine learning model to successfully perform its task.  Recently, the group decided to add in a fatality dataset.  This would create more data with fatalities involved and would probably allow us to choose a different model than the SMOTE oversampler.  The integration of the newer dataset did give us different important features and much higher accuracy, precision, and recall from the SMOTE used in the original model.  We also tried to use a deep neural network, however, the model presented challenges of overfitting.
 8. An accuracy score, confusion matrix, and a classification report are developed from this information.
+9. A pkl file was exported to run against data not in this set
+10. The pkl file was imported into a new file and a prediction set was created.
 
 ### Accuracy Report
-The accuracy report with descriptions are shown below:
-
-![AccuracyInfo.png](AccuracyInfo.png)
-
-The table gives an accuracy score approximately 84%.  This means that the prediction algorithm was correct 84% of the time when run on the testing dataset.  This is not perfect but is a good score for the situation.
+The accuracy score was approximately 84%.  This means that the prediction algorithm was correct 84% of the time when run on the testing dataset.  This is not perfect but is a good score for the situation.
 
 The confusion matrix gives the following information:
 - The precision score of .95 tells us that when the model predicted there would be no death, it was correct 95% of the time.
@@ -89,7 +86,6 @@ The confusion matrix gives the following information:
 - The recall/sensitivity score of .70 tells us that when the model predicted the fatal accidents correctly 70% of the time.
 
 Overall, these scores tell us that it is plausible for us to make predictions on fatal accidents.  This will also ultimately tell us there are steps we can take to improve driver safety.
-
 
 
 ## Technology at use
