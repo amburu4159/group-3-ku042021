@@ -28,7 +28,7 @@ Google docs
 - Pandas
 - pyplot
 - sklearn.preprocessing
-- - Standard Scaler
+  - Standard Scaler
 - sklearn.model_selection
 - - train_test_split
 - sklearn.ensemble
