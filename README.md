@@ -27,22 +27,20 @@ Google docs
 - Numpy
 - Pandas
 - pyplot
+- sklearn.preprocessing
+- - Standard Scaler
+- sklearn.model_selection
+- - train_test_split
+- sklearn.ensemble
+- - RandomForestClassifier
+- imblearn.over_sampling
+- - SMOTE
 
 o from pathlib import Path
 
 o from collections import Counter
 
-
-
-o from sklearn.model_selection import train_test_split
-
-o from sklearn.preprocessing import StandardScaler
-
-o from sklearn.ensemble import RandomForestClassifier
-
 o from sklearn.feature_selection import SelectFromModel
-
-o from imblearn.over_sampling import SMOTE
 
 o from sklearn.linear_model import LogisticRegression
 
