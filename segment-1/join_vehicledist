@@ -1,0 +1,10 @@
+CREATE TABLE vehicledist AS 
+SELECT * FROM vehicle as v
+LEFT JOIN distract 
+USING (casenum, veh_no);
+
+SELECT * FROM vehicledist
+LIMIT 10;
+
+SELECT * FROM fatalities
+LIMIT 10;
