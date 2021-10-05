@@ -24,14 +24,15 @@ FARS data (https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/)
 Google docs
 
 ## Dependencies
-o import numpy as np
-o import pandas as pd
+- Numpy
+- Pandas
+- pyplot
 
 o from pathlib import Path
 
 o from collections import Counter
 
-o from matplotlib import pyplot as plt
+
 
 o from sklearn.model_selection import train_test_split
 
