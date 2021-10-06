@@ -93,7 +93,10 @@ Overall, these scores tell us that it is plausible for us to make predictions on
   The database will be setup using postgreSQL. Python is the primary language that will be used for data manipulation and exploration. Supervised machine learning will be used to make predictions, and Tableau will be used to visualize the data.
   
 ## ERD
- ![ERD Diagram](https://user-images.githubusercontent.com/40553064/133019580-46009ee0-8d99-48b4-9e23-f882a34a61cf.PNG)
+![image](https://user-images.githubusercontent.com/40553064/136125577-938d3b9d-b5c3-45ba-b476-669767081876.png)
+ 
+ ![image](https://user-images.githubusercontent.com/40553064/136125554-077caef8-cbed-437f-bc8b-4f2e06856c14.png)
+
  
  ## Database
 The database being used is AWS RDS with access and manipulation via postgreSQL. The Data being used is from the NHTSA (National Highway and Traffic Safety Administration) government site (www.nhtsa.gov). The csvs are downloaded and accessed via jupyter notebook to pre-process the data. The tables are then loaded into the SQL database using sqlalchemy, and two tables (vehicle and distraction) are combined within postgres for ease of access later. The data is now accessible from the database for the machine learning model.
