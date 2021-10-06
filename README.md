@@ -9,7 +9,7 @@ Our group’s goal was to explore car accident data to determine what factors co
 4. Darpan Bhakta - X/Technologies
   
   
-## Google Slides Draft 
+## Google Slides
 https://docs.google.com/presentation/d/1Jm8NRDJl4Hmu8E_V1p_JUmdTqQMMCMX8bRXLLxojHeE/edit?usp=sharing
 
 
