@@ -114,4 +114,14 @@ The link to the dashboard is below
 
 https://public.tableau.com/app/profile/andrew.mburu8003/viz/ku_data_project3/2019FatalityAccidents?publish=yes
 
+### Summary
+We feel as if we can make some general observations about the data.  Ex: age, year of vehicle, hour of day, restraints, alcohol, speed, and type of collisions all play significant roles in fatality accidents. The graphs also showed that gender and location (state) also had some interesting trends. This does give us factors to focus on to improve vehicle safety.  Many of these factors are featured on billboards and through education throughout the community (alcohol for example), but many others are rarely talked about. 
+
+## Further Exploration
+Here are some of the questions that we developed that could be dissected a little more.
+- What happened in the year 2009?
+- Why does New York, a state with a large population, have lower deaths than other large states?
+- Why do the majority of fatal accidents involve male drivers?
+- How does each category relate to the total number of drivers?
+
 
