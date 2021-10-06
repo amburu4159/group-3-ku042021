@@ -106,8 +106,6 @@ o   Our dahboard includes interactive filters that allow the user to select whet
 
 The link to the dashboard is below
 
-https://public.tableau.com/app/profile/andrew.mburu8003/viz/ku_data_project3/FatalityAccidents?publish=yes
-
-
+https://public.tableau.com/app/profile/andrew.mburu8003/viz/ku_data_project3/2019FatalityAccidents?publish=yes
 
 
