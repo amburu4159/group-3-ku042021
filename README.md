@@ -22,7 +22,7 @@ FARS data (https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/)
 -Jupyter notebook  
 -Tableau  
 -AWS RDS  
--PostgreSQL 
+-PostgreSQL   
 -Google docs  
 
 ## Dependencies
