@@ -1,0 +1,10 @@
+﻿Make of Vehicle,Year of Vehicle,Speed,Type of Distraction,Month,Hour of Day,Weather,Type of Collision,Harmful Event,Position on Road,Gender,Age,Air Bag Deployment,Restraint Usage,Alcohol Status
+Toyota,2009,75,Not Distracted,January,3,Cloudy,Front-to-Rear,Motor Vehicle In-Transport,On Roadway,Male,25,Not Deployed,Shoulder and Lap Belt Used,Yes (Alcohol Involved)
+Ford,2002,90,Not Distracted,February,2,Clear,The First Harmful Event was Not a Collision with a Motor Vehicle In-Transport,Cable Barrier,On Roadside,Male,20,Not Deployed,None Used/Not Applicable,Yes (Alcohol Involved)
+Ford,2007,90,Not Distracted,February,2,Clear,The First Harmful Event was Not a Collision with a Motor Vehicle In-Transport,Rollover/Overturn,On Roadside,Male,22,Not Deployed,None Used/Not Applicable,Yes (Alcohol Involved)
+Chevrolet,2008,65,Not Distracted,March,1,Clear,Front-to-Front,Rollover/Overturn,On Roadside,Male,22,Not Deployed,None Used/Not Applicable,Yes (Alcohol Involved)
+Honda,2003,55,Not Reported,May,8,Cloudy,Front-to-Rear,Motor Vehicle In-Transport,On Roadway,Female,75,Deployed- Front,None Used/Not Applicable,No (Alcohol Not Involved)
+Hyundai,2004,80,Reported as Unknown if Distracted,April,23,Rain,Angle,Motor Vehicle In-Transport,On Roadway,Male,34,Deployed- Combination,Shoulder and Lap Belt Used,No (Alcohol Not Involved)
+Chevrolet,2018,45,"Inattention (Inattentive), Details Unknown",August,9,Snow,The First Harmful Event was Not a Collision with a Motor Vehicle In-Transport,Ditch,On Roadside,Female,87,Deployed- Front,None Used/Not Applicable,Yes (Alcohol Involved)
+Pontiac,1995,55,Eating or Drinking,October,15,Blowing Snow,Other,Curb,On Roadway,Male,56,Not Reported,Shoulder and Lap Belt Used,No (Alcohol Not Involved)
+Harley-Davidson,2010,60,Not Reported,November,17,Clear,Front-to-Front,Motor Vehicle In-Transport,On Roadway,Female,24,Not Deployed,None Used/Not Applicable,Yes (Alcohol Involved)
