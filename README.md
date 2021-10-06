@@ -19,11 +19,11 @@ NHTSA website (https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/CRSS/2019/
 FARS data (https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/)
 
 ## Technologies
--Jupyter notebook 
--Tableau 
--AWS RDS
--PostgreSQL
--Google docs
+-Jupyter notebook  
+-Tableau  
+-AWS RDS  
+-PostgreSQL 
+-Google docs  
 
 ## Dependencies
 - Numpy
