@@ -87,7 +87,7 @@ The accuracy score was approximately 84%.  This means that the prediction algori
 
 The confusion matrix gives the following information:
 - The precision score of .95 tells us that when the model predicted there would be no death, it was correct 95% of the time.
-- The precision score of .83 tells us that when the model predicted there would be death, it was correct 83% of the time.
+- The precision score of .84 tells us that when the model predicted there would be death, it was correct 84% of the time.
 - The recall/sensitivity score of .98 tells us that when the model predicted the non fatal accidents correctly 98% of the time.
 - The recall/sensitivity score of .70 tells us that when the model predicted the fatal accidents correctly 70% of the time.
 
